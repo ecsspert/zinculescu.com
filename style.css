@@ -83,11 +83,11 @@ html, body { margin-top:0 !important }
 .sprite { background-image:url(images/nunta-anca-vlad-zinculescu-sprite.png); background-repeat:no-repeat }
 body { background-color:#519871; background-position:50% -296px; color:#111; font-size:11px }
 a, a:hover, a:focus, a:visited { color:#0099cc; text-decoration:none }
-.site { background:#fff; background:rgba(255,255,255,0.9); -moz-box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3); -webkit-box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3); box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3); margin-top:252px;  }
+.site { background:#fff; background:rgba(255,255,255,0.9); -moz-box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3); -webkit-box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3); box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3); margin-top:252px; width: 600px; }
 .welcome { background:#fff; padding:50px 20px }
 .welcome .letter { background-position:-16px -106px; height:60px; float:left; overflow:hidden; text-indent:-999px; width:60px }
 .welcome p { font-size:13px; line-height:20px }
-.content { border-right:1px solid #dedede; padding:0 20px; width:578px }
+.content { padding:0 20px }
 .title { font-size:24px; padding:15px 0; text-shadow:0px 2px 0px #fff }
 .post p { font-size:13px; line-height:16px; margin-bottom:20px; overflow:hidden; width:578px; zoom:1 }
 .post .separator { background-position:50% -8px; height:10px; margin-bottom:20px; text-indent:-9999px }
