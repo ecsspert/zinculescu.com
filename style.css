@@ -1,0 +1,110 @@
+/*
+Theme Name: Nunta Anca si Vlad
+Theme URI: http://nunta2011.zinculescu.com/
+Description: Tema nuntii noastre, Anca si Vlad
+Author: Vlad Zinculescu
+Author URI: http://ecsspert.com
+Version: 1.0 
+
+License: NOT TO BE USED!!!
+*/
+
+/* css reset */
+*{margin:0;padding:0;}
+* html body *{overflow:visible;}
+* html iframe,* html frame{overflow:auto;}
+* html frameset{overflow:hidden;}
+html *{font-size:100.01%;}
+body{font-size:100.01%;text-align:left;}
+textarea,pre,code,kbd,samp,var,tt {font-family:Arial,Helvetica,sans-serif;}
+body{font-family:Arial,Helvetica,sans-serif;font-size:75.00%;color:#333;}
+blockquote,cite,q{font-family:Arial,Helvetica,sans-serif;font-style:italic;}
+div{outline:0 none;}
+fieldset,img{border:0 solid;}
+h1,h2,h3,h4,h5,h6{font-family:"Lucida Grande",Arial,Helvetica,sans-serif;font-weight:bold;color:#000;margin:0;}
+h1{font-size:250%;}
+h2{font-size:200%;}
+h3{font-size:150%;}
+h4{font-size:133.33%;}
+h5{font-size:116.67%;}
+h6{font-size:116.67%;}
+ul,ol,dl{line-height:1.5em;margin:0;}
+ul{list-style-type:none;}
+ul ul{list-style-type:none;margin:0;}
+ol{list-style-type:decimal;}
+ol ol{list-style-type:lower-latin;margin:0;}
+li{margin:0;padding:0;line-height:1.5em;}
+dt{font-weight:bold;}
+dd{margin:0 0 1em .8em;}
+p{line-height:1.5em;margin:0;}
+blockquote{margin:0 0 1em 1.6em;color:#666;}
+blockquote:before,blockquote:after,q:before,q:after{content:"";}
+strong,b{font-weight:bold;}
+em,i{font-style:italic;}
+big{font-size:116.667%;}
+small{font-size:91.667%;}
+pre{line-height:1.5em;margin:0 0 1em 0;}
+pre,code,kbd,tt,samp,var{font-size:100%;}
+pre,code{color:#800;}
+kbd,samp,var,tt{color:#666;font-weight:bold;}
+var,dfn{font-style:italic;}
+acronym,abbr{border-bottom:1px #aaa dotted;font-variant:small-caps;letter-spacing:.07em;cursor:help;}
+sub,sup{font-size:91.6667%;line-height:0;}
+hr{color:#fff;background:transparent;margin:0 0 .5em 0;padding:0 0 .5em 0;border:0;border-bottom:1px #eee solid;}
+/* end reset */
+/* tools */
+.fbox { overflow:hidden; height:1% }
+.fleft { display:block; float:left }
+.fright { display:block; float:right !important } 
+.pad0{ padding:0px; } .pad0t{ padding-top:0px; } .pad0r{ padding-right:0px; } .pad0b{ padding-bottom:0px; } .pad0l{ padding-left:0px; } .mar0{ margin:0px; } .mar0t{ margin-top:0px; } .mar0r{ margin-right:0px; } .mar0b{ margin-bottom:0px; } .mar0l{ margin-left:0px; } .pad5{ padding:5px; } .pad5t{ padding-top:5px; } .pad5r{ padding-right:5px; } .pad5b{ padding-bottom:5px; } .pad5l{ padding-left:5px; } .mar5{ margin:5px; } .mar5t{ margin-top:5px; } .mar5r{ margin-right:5px; } .mar5b{ margin-bottom:5px; } .mar5l{ margin-left:5px; } .pad10{ padding:10px; } .pad10t{ padding-top:10px; } .pad10r{ padding-right:10px; } .pad10b{ padding-bottom:10px; } .pad10l{ padding-left:10px; } .mar10{ margin:10px; } .mar10t{ margin-top:10px; } .mar10r{ margin-right:10px; } .mar10b{ margin-bottom:10px; } .mar10l{ margin-left:10px; } .pad15{ padding:15px; } .pad15t{ padding-top:15px; } .pad15r{ padding-right:15px; } .pad15b{ padding-bottom:15px; } .pad15l{ padding-left:15px; } .mar15{ margin:15px; } .mar15t{ margin-top:15px; } .mar15r{ margin-right:15px; } .mar15b{ margin-bottom:15px; } .mar15l{ margin-left:15px; } .pad20{ padding:20px; } .pad20t{ padding-top:20px; } .pad20r{ padding-right:20px; } .pad20b{ padding-bottom:20px; } .pad20l{ padding-left:20px; } .mar20{ margin:20px; } .mar20t{ margin-top:20px; } .mar20r{ margin-right:20px; } .mar20b{ margin-bottom:20px; } .mar20l{ margin-left:20px; } .pad25{ padding:25px; } .pad25t{ padding-top:25px; } .pad25r{ padding-right:25px; } .pad25b{ padding-bottom:25px; } .pad25l{ padding-left:25px; } .mar25{ margin:25px; } .mar25t{ margin-top:25px; } .mar25r{ margin-right:25px; } .mar25b{ margin-bottom:25px; } .mar25l{ margin-left:25px; } .pad30{ padding:30px; } .pad30t{ padding-top:30px; } .pad30r{ padding-right:30px; } .pad30b{ padding-bottom:30px; } .pad30l{ padding-left:30px; } .mar30{ margin:30px; } .mar30t{ margin-top:30px; } .mar30r{ margin-right:30px; } .mar30b{ margin-bottom:30px; } .mar30l{ margin-left:30px; } .pad35{ padding:35px; } .pad35t{ padding-top:35px; } .pad35r{ padding-right:35px; } .pad35b{ padding-bottom:35px; } .pad35l{ padding-left:35px; } .mar35{ margin:35px; } .mar35t{ margin-top:35px; } .mar35r{ margin-right:35px; } .mar35b{ margin-bottom:35px; } .mar35l{ margin-left:35px; } .pad40{ padding:40px; } .pad40t{ padding-top:40px; } .pad40r{ padding-right:40px; } .pad40b{ padding-bottom:40px; } .pad40l{ padding-left:40px; } .mar40{ margin:40px; } .mar40t{ margin-top:40px; } .mar40r{ margin-right:40px; } .mar40b{ margin-bottom:40px; } .mar40l{ margin-left:40px; } .pad45{ padding:45px; } .pad45t{ padding-top:45px; } .pad45r{ padding-right:45px; } .pad45b{ padding-bottom:45px; } .pad45l{ padding-left:45px; } .mar45{ margin:45px; } .mar45t{ margin-top:45px; } .mar45r{ margin-right:45px; } .mar45b{ margin-bottom:45px; } .mar45l{ margin-left:45px; } .pad50{ padding:50px; } .pad50t{ padding-top:50px; } .pad50r{ padding-right:50px; } .pad50b{ padding-bottom:50px; } .pad50l{ padding-left:50px; } .mar50{ margin:50px; } .mar50t{ margin-top:50px; } .mar50r{ margin-right:50px; } .mar50b{ margin-bottom:50px; } .mar50l{ margin-left:50px; } .pad55{ padding:55px; } .pad55t{ padding-top:55px; } .pad55r{ padding-right:55px; } .pad55b{ padding-bottom:55px; } .pad55l{ padding-left:55px; } .mar55{ margin:55px; } .mar55t{ margin-top:55px; } .mar55r{ margin-right:55px; } .mar55b{ margin-bottom:55px; } .mar55l{ margin-left:55px; } .pad60{ padding:60px; } .pad60t{ padding-top:60px; } .pad60r{ padding-right:60px; } .pad60b{ padding-bottom:60px; } .pad60l{ padding-left:60px; } .mar60{ margin:60px; } .mar60t{ margin-top:60px; } .mar60r{ margin-right:60px; } .mar60b{ margin-bottom:60px; } .mar60l{ margin-left:60px; } .pad65{ padding:65px; } .pad65t{ padding-top:65px; } .pad65r{ padding-right:65px; } .pad65b{ padding-bottom:65px; } .pad65l{ padding-left:65px; } .mar65{ margin:65px; } .mar65t{ margin-top:65px; } .mar65r{ margin-right:65px; } .mar65b{ margin-bottom:65px; } .mar65l{ margin-left:65px; } .pad70{ padding:70px; } .pad70t{ padding-top:70px; } .pad70r{ padding-right:70px; } .pad70b{ padding-bottom:70px; } .pad70l{ padding-left:70px; } .mar70{ margin:70px; } .mar70t{ margin-top:70px; } .mar70r{ margin-right:70px; } .mar70b{ margin-bottom:70px; } .mar70l{ margin-left:70px; } .pad75{ padding:75px; } .pad75t{ padding-top:75px; } .pad75r{ padding-right:75px; } .pad75b{ padding-bottom:75px; } .pad75l{ padding-left:75px; } .mar75{ margin:75px; } .mar75t{ margin-top:75px; } .mar75r{ margin-right:75px; } .mar75b{ margin-bottom:75px; } .mar75l{ margin-left:75px; } .pad80{ padding:80px; } .pad80t{ padding-top:80px; } .pad80r{ padding-right:80px; } .pad80b{ padding-bottom:80px; } .pad80l{ padding-left:80px; } .mar80{ margin:80px; } .mar80t{ margin-top:80px; } .mar80r{ margin-right:80px; } .mar80b{ margin-bottom:80px; } .mar80l{ margin-left:80px; } .pad85{ padding:85px; } .pad85t{ padding-top:85px; } .pad85r{ padding-right:85px; } .pad85b{ padding-bottom:85px; } .pad85l{ padding-left:85px; } .mar85{ margin:85px; } .mar85t{ margin-top:85px; } .mar85r{ margin-right:85px; } .mar85b{ margin-bottom:85px; } .mar85l{ margin-left:85px; } .pad90{ padding:90px; } .pad90t{ padding-top:90px; } .pad90r{ padding-right:90px; } .pad90b{ padding-bottom:90px; } .pad90l{ padding-left:90px; } .mar90{ margin:90px; } .mar90t{ margin-top:90px; } .mar90r{ margin-right:90px; } .mar90b{ margin-bottom:90px; } .mar90l{ margin-left:90px; } .pad95{ padding:95px; } .pad95t{ padding-top:95px; } .pad95r{ padding-right:95px; } .pad95b{ padding-bottom:95px; } .pad95l{ padding-left:95px; } .mar95{ margin:95px; } .mar95t{ margin-top:95px; } .mar95r{ margin-right:95px; } .mar95b{ margin-bottom:95px; } .mar95l{ margin-left:95px; } .pad100{ padding:100px; } .pad100t{ padding-top:100px; } .pad100r{ padding-right:100px; } .pad100b{ padding-bottom:100px; } .pad100l{ padding-left:100px; } .mar100{ margin:100px; } .mar100t{ margin-top:100px; } .mar100r{ margin-right:100px; } .mar100b{ margin-bottom:100px; } .mar100l{ margin-left:100px; }
+.fs10{ font-size:10px !important; } .fs11{ font-size:11px !important; } .fs12{ font-size:12px !important; } .fs13{ font-size:13px !important; } .fs14{ font-size:14px !important; } .fs15{ font-size:15px !important; } .fs16{ font-size:16px !important; } .fs17{ font-size:17px !important; } .fs18{ font-size:18px !important; } .fs19{ font-size:19px !important; } .fs20{ font-size:20px !important; } .fs21{ font-size:21px !important; } .fs22{ font-size:22px !important; } .fs23{ font-size:23px !important; } .fs24{ font-size:24px !important; } 
+.center980 { margin:0 auto; width:980px }
+.w50 { width:50% }
+.tac { text-align:center !important }
+.tar { text-align:right !important }
+.tal { text-align:left }
+.tar { text-align:right }
+.tac { text-align:center }
+.buton, .yform .type-button button { background:none; border:0 !important; cursor:pointer; outline:0 none }
+.center-me { float:left; position:relative; left:50% }
+.center-me .center-me { float:left; position:relative; left:-50% }
+/* yforms */
+@media screen,projection{  .yform{ margin:0; padding:0} .yform fieldset{ border:1px #ddd solid; background:#fafafa; margin:0 0 1em 0; padding:0.5em}  .yform legend{ font-size:125%; font-weight:normal; color:#000} .yform label{ color:#666} .yform input, .yform textarea, .yform select, .yform optgroup{ font-family:Arial,Helvetica,sans-serif} .yform .type-text input, .yform .type-text textarea, .yform .type-select select{ border:1px solid #ddd}  .yform div.type-text input:focus, .yform div select:focus, .yform div textarea:focus, .yform div.type-text input:hover, .yform div select:hover, .yform div textarea:hover, .yform div.type-text input:active, .yform div select:active, .yform div textarea:active{ border:1px #14d2c8 solid; background:#fff}   .yform .type-button input{    border-top:1px #ddd solid;    border-left:1px #ddd solid;    border-right:1px #444 solid;    border-bottom:1px #444 solid;    color:#000;    background:#454545 url(images/button_gray.png) top left repeat-x;    padding:5px 1em}  .yform .type-button input[type=reset]{color:#300;background:#661717 url(images/button_red.png) top left repeat-x}  .yform .type-button input[type=submit]{color:#330;background:#5e5607 url(images/button_yellow.png) top left repeat-x}   .yform .type-button input.reset{color:#300;background:#661717 url(images/button_red.png) top left repeat-x}  .yform .type-button input.submit{color:#330;background:#5e5607 url(images/button_yellow.png) top left repeat-x}  .yform div.type-button input:focus, .yform div.type-button input:hover, .yform div.type-button input:active{ border-top:1px #444 solid; border-left:1px #444 solid; border-right:1px #ddd solid; border-bottom:1px #ddd solid; color:#fff; background:#555} .yform div.type-button input.reset:focus, .yform div.type-button input.reset:hover, .yform div.type-button input.reset:active{ background:#800;color:#fff} .yform div.type-button input.submit:focus, .yform div.type-button input.submit:hover, .yform div.type-button input.submit:active{ background:#880;color:#fff}    .yform{overflow:hidden} .yform fieldset{display:block;zoom:1} .yform label{display:block;cursor:pointer} .yform legend{background:transparent;border:0;padding:0 0.5em} .yform .message{display:block;margin-bottom:0.5em;color:#666}  .yform input[type=hidden]{display:none !important}  .yform sup{color:#800;font-weight:bold}  fieldset:after, .yform div.type-text:after, .yform div.type-select:after, .yform div.type-check:after, .yform div.type-button:after{ clear:both; content:"."; display:block; font-size:0; height:0; visibility:hidden}  .yform div.type-text, .yform div.type-select, .yform div.type-check, .yform div.type-button{display:block; margin:0.5em 0; padding:3px 0.5em;  position:relative;zoom:1}  .yform div.type-button{ padding:3px 0em}   .yform .type-text input, .yform .type-text textarea{ display:block; position:relative; padding:0.3em 0.3em; width:58.5%} .yform .type-select select{ display:block; position:relative; padding:0.3em 2px 0.3em 1px; width:60%; cursor:pointer} .yform .type-select select optgroup{ font-style:normal; font-weight:bold} .yform .type-check input{cursor:pointer} .yform .type-check label{display:inline}  .yform .type-button input{ cursor:pointer; overflow:visible;  width:auto}  .yform div.error{ border:1px #a00 solid	; background:#faf4f4; padding:0.5em} .yform div.error label{color:#000;font-weight:bold} .yform div.error .message{color:#800}  .yform div.type-check input:focus, .yform div.type-check input:hover, .yform div.type-check input:active{border:0 none}   .full div.type-text input, .full div.type-text textarea{width:95.5%;margin-right:-3px} .full div.type-select select{width:97.0%;margin-right:-3px}   * html .full div.type-text input, * html .full div.type-text textarea{width:95.5%} * html .full div.type-select select{width:97.0%}    .columnar .type-text label, .columnar .type-select label{ float:left; width:30%}  .columnar div.type-check input{margin-left:30%} .columnar div.error .message{margin-left:30%} .columnar fieldset div.type-button, fieldset.columnar div.type-button{padding-left:30%} .columnar div.type-text input, .columnar div.type-text textarea{float:left;width:67.8%;margin-right:-3px} .columnar div.type-select select{float:left;width:69.4%;margin-right:-3px}   * html .columnar div.type-text input, * html .columnar div.type-text textarea{width:67.2%} * html .columnar div.type-select select{width:68.8%}    .yform, .yform div, .yform div *{zoom:1}    .yform{padding-top:0\9} .yform fieldset{padding:0 5px\9;padding-top:1em\9} .yform legend{position:absolute\9;top:-.5em\9;*left:0\9} .yform fieldset{position:relative\9;overflow:visible\9; margin-top:1.5em\9;zoom:1}  .yform legend{*padding:0 5px} .yform fieldset{*padding-top:1.5em}   * html .yform{padding-top:10px}}
+/* custom form */
+.yform .empty { display:none }
+.columnar .empty { display:block; float:left; width:30% }
+
+.b1b { border-bottom:1px solid #dedede; -moz-box-shadow: 0px 1px 0px #fff; -webkit-box-shadow: 0px 1px 0px #fff; box-shadow: 0px 1px 0px #fff; }
+/*end tools*/
+
+/* layout */
+html, body { margin-top:0 !important }
+.nolink { color:#111 }
+.sprite { background-image:url(images/nunta-anca-vlad-zinculescu-sprite.png); background-repeat:no-repeat }
+body { background-color:#519871; background-position:50% -296px; color:#111; font-size:11px }
+a, a:hover, a:focus, a:visited { color:#0099cc; text-decoration:none }
+.site { background:#fff; background:rgba(255,255,255,0.9); -moz-box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3); -webkit-box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3); box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3); margin-top:252px;  }
+.welcome { background:#fff; padding:50px 20px }
+.welcome .letter { background-position:-16px -106px; height:60px; float:left; overflow:hidden; text-indent:-999px; width:60px }
+.welcome p { font-size:13px; line-height:20px }
+.content { border-right:1px solid #dedede; padding:0 20px; width:578px }
+.title { font-size:24px; padding:15px 0; text-shadow:0px 2px 0px #fff }
+.post p { font-size:13px; line-height:16px; margin-bottom:20px; overflow:hidden; width:578px; zoom:1 }
+.post .separator { background-position:50% -8px; height:10px; margin-bottom:20px; text-indent:-9999px }
+.post img { border-bottom:2px solid #fff }
+.galleryHolder { overflow:hidden; width:578px; zoom:1 }
+.gallery a { display: inline-block }
+
+.wall { border-left:1px solid #fff; padding:0 20px; width:320px }
+.wall #submit { background: #79be20; /* old browsers */background: -moz-linear-gradient(top, #E2F13F 0%, #8AC824 5%, #68B41D 100%); /* firefox */background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E2F13F), color-stop(5%,#8AC824), color-stop(100%,#68B41D)); /* webkit */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E2F13F', endColorstr='#68B41D',GradientType=0 ); /* ie */ -moz-border-radius:3px; border:1px solid #548029; border-radius:3px; color:#fff; font-size:14px; font-weight:bold; text-shadow:0 1px 0 #52a010; margin-bottom:20px }
+.wall .yform .type-button { padding:3px 0.5em }
+.yform .type-text input, .yform .type-text textarea { -moz-border-radius:3px; border-radius:3px }
+.wall li { padding-bottom:10px; margin-bottom:10px }
+.wall li div { line-height:20px }
+.wall li div .autor { font-size:13px; font-weight:bold; margin-right:10px }
+.wall li div .data { color:#999; font-size:11px; }
+.wall li p { padding-left:10px }
+.wall .asteptare { color:#999 }
+.wall iframe { height:4500px !important }
+
+.footer { background-position:50% -48px; height:56px; margin:40px 0; text-indent:-9999px }
