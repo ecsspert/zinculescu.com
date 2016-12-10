@@ -1005,6 +1005,12 @@ a:visited {
 .post img {
     border-bottom: 2px solid #fff
 }
+.post iframe {
+	height: 56vw; /* 16/9 */
+	max-height: 315px;
+	resize: both;
+	width: 100%;
+}
 .galleryHolder {
     overflow: hidden;
     width: 578px;
