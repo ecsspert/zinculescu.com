@@ -1264,7 +1264,7 @@ a:visited {
     line-height: 20px
 }
 .content {
-    padding: 0 20px
+    padding: 0 20px 20px;
 }
 .title {
     font-size: 24px;
