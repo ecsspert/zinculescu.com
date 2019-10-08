@@ -1,5 +1,5 @@
 html {
-  background: hotpink url(background-tiny.png) 50% 0% no-repeat;
+  background: #2B65EC url(background-tiny.png) 50% 0% no-repeat;
   background-size: cover;
   height: 100vh;
   overflow: hidden;
