@@ -1,7 +1,8 @@
 html {
-  background: url(background-tiny.png) 50% 0% no-repeat;
+  background: hotpink url(background-tiny.png) 50% 0% no-repeat;
   background-size: cover;
   height: 100vh;
+  overflow: hidden;
 }
 body {
   background: url(background-100.jpg) 50% 0% no-repeat;
