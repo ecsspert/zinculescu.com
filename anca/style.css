@@ -1,0 +1,73 @@
+html {
+  background: url(background-100.jpg) 50% 0% no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+body {
+  align-content: center;
+  bottom: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: center;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  top: 0;
+}
+
+h1 {
+  font-family: 'Vidaloka', serif;
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 72px;
+  margin: 0 0 4px;
+  padding: 0;
+}
+
+p {
+  margin: 0 0 32px;
+  padding: 0;
+}
+
+a {
+  border-radius: 4px;
+  border: 1px solid;
+  box-shadow: 0 1px 1px rgba(0,0,0,.3);
+  color: inherit;
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgba(255,255,255,.1);
+}
+a:active {
+  background-color: rgba(255,255,255,8);
+  border-color: #fff;
+  color: hotpink;
+  text-shadow: none;
+}
+
+
+@media only screen 
+  and (max-device-width: 812px) 
+  and (orientation: portrait) { 
+
+    h1 {
+      line-height: 64px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-bottom: 32px;
+    }
+  
+}
