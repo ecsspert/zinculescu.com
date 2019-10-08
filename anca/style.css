@@ -1,9 +1,11 @@
 html {
-  background: url(background-100.jpg) 50% 0% no-repeat;
+  background: url(background-small.png) 50% 0% no-repeat;
   background-size: cover;
   height: 100vh;
 }
 body {
+  background: url(background-100.jpg) 50% 0% no-repeat;
+  background-size: cover;
   align-content: center;
   bottom: 0;
   color: #fff;
